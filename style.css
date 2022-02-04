@@ -1,0 +1,38 @@
+/*Estructura básica. No modificar*/
+
+:root{ /*Declaración de colores*/
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    /* Neutral */
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+h1,h2,h3,h4,h5{ /*Títulos*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/*Termina estructura básica*/
+
+/*Móvil: desde 375 px*/
+
+
+
+
+
+/*Desktop, desde 1440 px*/
+@media only screen and (min-width: 1440px){
+
+    
+}
+
+
+
+
+/* h´s
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700 */
