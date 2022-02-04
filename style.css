@@ -8,15 +8,42 @@
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1,h2,h3,h4,h5{ /*Títulos*/
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    text-align: center;
+}
+
+section{
+    width: 100%;
 }
 /*Termina estructura básica*/
 
 /*Móvil: desde 375 px*/
-
+nav{
+    padding: 20px;
+    display: flex;
+    flex-direction: rcolumn;
+    justify-content: space-between;
+}
+nav img{
+    width: 85px;
+    height: 15px;
+}
+nav button{
+    border: 1px solid var(--Pink);
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: var(--Pink);
+    font-size: 10px;
+}
 
 
 
