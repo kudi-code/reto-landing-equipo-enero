@@ -18,11 +18,15 @@ h1,h2,h3,h4,h5{ /*Títulos*/
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-align: center;
+    
+    margin-block: 0;
 }
 p{
     font-family: 'Open-sans', sans-serif;
     font-weight: 400;
     text-align: center;
+    
+    margin-block: 0;
 }
 section{
     width: 100%;
@@ -73,6 +77,32 @@ nav button{
     box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+#Numbers{
+    width: 100%;
+    text-align: center;
+}
+
+#Numbers .mockups{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 auto;
+    padding-right: 20px;
+    
+}
+#Numbers .data img{
+    width: 45px;
+    height: 39px;
+}
+#Numbers .data h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
 
 /*Desktop, desde 1440 px*/
 @media only screen and (min-width: 1440px){
