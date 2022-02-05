@@ -7,8 +7,9 @@
     /* Neutral */
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Very-Pale-Blue: hsl(207, 100%, 98%);
+    --gray-p: rgb(139, 139, 139);
 }
-html{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,10 +55,10 @@ nav button{
     font-size: 10px;
 }
 #title{    
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 50px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 #title p{
@@ -65,7 +66,7 @@ nav button{
     line-height: 20px;
     font-size: 15px;
 }
-#title button{
+.start-button{
     border: none;
     padding: 10px 40px;
     border-radius: 50px;
@@ -86,23 +87,71 @@ nav button{
     width: 280px;
     margin: 0 auto;
     margin-top: 80px;
+    margin-bottom: 80px;
+
 }
 .data{
     display: flex;
     flex-direction: column;
-    width: 100px;
     margin: 0 auto;
-    padding-right: 20px;
+    margin-bottom: 100px;
     
 }
 #Numbers .data img{
-    width: 45px;
-    height: 39px;
+    width: 30px;
+    height: 29px;
+    transform: translateX(105px);
 }
 #Numbers .data h2{
     font-size: 3.5rem;
+    font-weight: 700;
+}
+#Numbers .data p{
+    font-size: .9rem;
+    color: rgb(139, 139, 139);
+}
+#growing{
+    width: 80%;
+    text-align: center;
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 200px; 
+}
+#growing img{
+    width: 250px;
+    margin-bottom: 80px;
+}
+#growing p{
+    line-height: 20px;
+    font-size: .9rem;
+}
+#get-started{
+    text-align: center;
+    margin-bottom: 200px;
+}
+#newsletter{
+    background-color: var(--Very-Dark-Cyan);
+    height: 150px;
+    padding:30px;
+}
+#newsletter div{
+    width: 80%;
+}
+#newsletter p, #newsletter h4{
+    color: white;
+    text-align: left;
+}
+#newsletter h4{
     font-weight: 600;
 }
+#newsletter p{
+    font-family: 'Poppins', sans-serif;
+
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
 
 /*Desktop, desde 1440 px*/
 @media only screen and (min-width: 1440px){
