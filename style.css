@@ -13,6 +13,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5{ /*Títulos*/
@@ -117,11 +118,17 @@ nav button{
     font-size: .9rem;
     color: rgb(139, 139, 139);
 }
+#growings{
+    width: 100%;
+}
+
 #growing{
+    display: block;
+    margin: -5px auto;
     width: 80%;
     text-align: center;
     color: var(--Very-Dark-Cyan);
-    margin-bottom: 200px; 
+    padding-bottom: 200px; 
 }
 .growing-unpaired{
     background-color: var(--Very-Pale-Blue);
@@ -207,8 +214,53 @@ footer img{
 
 /*Desktop, desde 1440 px*/
 @media only screen and (min-width: 1440px){
-
+    nav{
+        padding: 50px;
+    }
+    nav img{
+        width: 200px;
+        height: 35px;
+    }
+    nav button{
+        font-size: 1.0rem;
+        padding: 10px 40px;
+        border-radius: 30px;
+    }
+    h1{
+        font-size: 3.0rem;
+    }
     
+    #title p{
+        font-size: 1.5rem;
+        line-height: 35px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .start-button{
+        font-size: 1.0rem;
+        padding: 20px 60px;        
+    }
+    
+    #Numbers .mockups{
+        width: 800px;
+    }
+    #Numbers .Numbers--cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;        
+    }
+    #Numbers .data img{
+        width: 36px;
+        height: 35px;
+        transform: translateX(0px);
+    }
+    .data{
+        margin: 0 150px;
+    }
+    #Numbers .data h2 {
+        font-size: 5.0rem;
+    }
+
 }
 
 
