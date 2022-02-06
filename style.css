@@ -18,15 +18,22 @@ body{
 h1,h2,h3,h4,h5{ /*Títulos*/
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    text-align: center;
-    
+    text-align: center;    
     margin-block: 0;
 }
 p{
     font-family: 'Open-sans', sans-serif;
     font-weight: 400;
+    text-align: center;    
+    margin-block: 0;
+}
+span{
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 200;
     text-align: center;
-    
+    color: white;
+    font-size: .8rem;
+
     margin-block: 0;
 }
 section{
@@ -116,6 +123,9 @@ nav button{
     color: var(--Very-Dark-Cyan);
     margin-bottom: 200px; 
 }
+.growing-unpaired{
+    background-color: var(--Very-Pale-Blue);
+}
 #growing img{
     width: 250px;
     margin-bottom: 80px;
@@ -126,11 +136,13 @@ nav button{
 }
 #get-started{
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+}
+#footer-top{
+    margin-bottom: -5px;
 }
 #newsletter{
     background-color: var(--Very-Dark-Cyan);
-    height: 150px;
     padding:30px;
 }
 #newsletter div{
@@ -146,9 +158,49 @@ nav button{
 #newsletter p{
     font-family: 'Poppins', sans-serif;
 
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: 400;
     line-height: 25px;
+}
+#newsletter input{
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+#newsletter button{
+    margin-top: 15px;
+    border-radius: 10px;
+    transform: translateX(44vw);
+}
+footer{
+    background-color: var(--Very-Dark-Cyan);
+    padding:30px;
+    padding-right: 100px;
+    width: 80%;
+}
+footer p, footer h4{
+    color: white;
+    text-align: left;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+.footer--logo{
+    width: 180px;
+    margin-bottom: 15px;
+}
+footer img{
+    margin-right: 15px;
+    margin-top:20px;
+    transform: translateY(4px);
+}
+.footer--social{
+    margin-top: 50px;
+    width: 30px;
 }
 
 
